@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f2752e4e.css",
+    "main.js": "/static/js/main.9b2ad20d.js",
+    "static/js/453.312d4c4c.chunk.js": "/static/js/453.312d4c4c.chunk.js",
+    "static/media/chadava.png": "/static/media/chadava.30d30ad9145e439763ae.png",
+    "static/media/family.png": "/static/media/family.276e1c5780a7f518d052.png",
+    "static/media/couples.png": "/static/media/couples.676006491983ee8499ea.png",
+    "static/media/temple 1.png": "/static/media/temple 1.ff2f7e949706ecc0e354.png",
+    "static/media/tmplbanner.webp": "/static/media/tmplbanner.c1de0853854dbe8e3b39.webp",
+    "static/media/logo.png": "/static/media/logo.37d5a9cfb5930e368173.png",
+    "static/media/single.png": "/static/media/single.81823b540de08b654cc8.png",
+    "static/media/dyhi.webp": "/static/media/dyhi.f9b3660fa558e2136647.webp",
+    "static/media/banner1.webp": "/static/media/banner1.29498dc31f03d959056d.webp",
+    "static/media/temple2.png": "/static/media/temple2.2c40892d2da47c3523e5.png",
+    "static/media/upload-icon.svg": "/static/media/upload-icon.7aff700a3743a5400563af4391986b82.svg",
+    "index.html": "/index.html",
+    "main.f2752e4e.css.map": "/static/css/main.f2752e4e.css.map",
+    "main.9b2ad20d.js.map": "/static/js/main.9b2ad20d.js.map",
+    "453.312d4c4c.chunk.js.map": "/static/js/453.312d4c4c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2752e4e.css",
+    "static/js/main.9b2ad20d.js"
+  ]
+}
