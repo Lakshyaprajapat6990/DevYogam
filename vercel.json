@@ -1,6 +1,7 @@
 {
   "buildCommand": "CI=false SKIP_ENV_VALIDATION=true npm run build",
   "env": {
+    "REACT_APP_API_BASE_URL": "https://backend-asq4rn8cr-lakshyas-projects-ccb3a0a8.vercel.app",
     "CI": "false",
     "DISABLE_ESLINT_PLUGIN": "true",
     "SKIP_PREFLIGHT_CHECK": "true",
