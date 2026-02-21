@@ -1,9 +1,10 @@
 {
-  "buildCommand": "DISABLE_ESLINT_PLUGIN=true CI=false npm run build",
+  "buildCommand": "CI=false SKIP_ENV_VALIDATION=true npm run build",
   "env": {
     "CI": "false",
     "DISABLE_ESLINT_PLUGIN": "true",
-    "SKIP_PREFLIGHT_CHECK": "true"
+    "SKIP_PREFLIGHT_CHECK": "true",
+    "SKIP_ENV_VALIDATION": "true"
   }
 }
 

@@ -154,12 +154,11 @@ export default function PujaCard({
           {highlight && (
             <Typography
               sx={{
-                color: highlightColor,
+                color: "#7c3aed",
                 fontWeight: 600,
                 mb: 1,
                 userSelect: "none",
                 fontFamily: "Poppins",
-                color: "#7c3aed",
               }}
             >
               {shortHighlight}

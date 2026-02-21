@@ -4,7 +4,15 @@ export const GetAllPoojasAPI = async (data) => {
   try {
     const response = await axiosInstance.get("/api/poojas");
     if (response?.status === 200) {
-      return response?.data;
+      const resData = response?.data;
+
+      // Normalize common response shapes so callers can use `.map`
+      if (Array.isArray(resData)) return resData;
+      if (resData && Array.isArray(resData.value)) return resData.value;
+      if (resData && Array.isArray(resData.data)) return resData.data;
+
+      // Fallback: if it's an object but not an array, return empty array
+      return [];
     }
   } catch (error) {
     if (error?.response && error?.response?.data) {

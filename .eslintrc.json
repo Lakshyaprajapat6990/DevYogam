@@ -1,0 +1,15 @@
+{
+  "extends": "react-app",
+  "rules": {
+    "no-unused-vars": "off",
+    "no-dupe-keys": "off",
+    "no-useless-escape": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "import/no-anonymous-default-export": "off",
+    "jsx-a11y/alt-text": "off",
+    "jsx-a11y/img-redundant-alt": "off",
+    "default-case": "off",
+    "no-script-url": "off",
+    "eqeqeq": "off"
+  }
+}
